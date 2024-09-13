@@ -24,10 +24,12 @@ header .wrapper{
 
 #logo{
     width: 150px;
+}
+#logo a{
     display: flex;
     gap: 10px;
+    text-decoration: none;
 }
-
 #logo h1{
     margin: 0;
     color: white;
@@ -51,10 +53,13 @@ header nav ul li a{
 }
 header nav ul li a:hover{
     color: rgb(255, 255, 255);
-    border-bottom: 5px solid #f19e39b6;
+    border-bottom: 5px solid #ac7f03b6;
 }
 .active{
-    border-bottom: 5px solid #f19e39;
+    border-bottom: 5px solid #d38322;
+}
+.active:hover{
+    border-bottom: 5px solid #d68016;
 }
 main{
     color: rgb(255, 199, 17);
