@@ -29,6 +29,53 @@
     <main>
         <div class="wrapper">
             <h1>CONTATO</h1>
+            <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha">
+            </fieldset>
+            <fieldset>
+                <legend>Preferências</legend>
+                <p>Em qual bolsa você tem mais investimentos?</p>
+                <div>
+                <input type="radio" id="ibovespa" name="bolsa">
+                <label for="senha">Ibovespa:</label>
+                 </div>
+                 <div>
+                <input type="radio" id="London" name="bolsa">
+                <label for="London">London Stock Exchange:</label>
+                </div>
+                <div>
+                <input type="radio" id="Caracas" name="bolsa">
+                <label for="caracas">Caracas Stock Exchang:</label>
+                </div>
+                <br>
+                <div>
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">Deseja receber nossos informativos?</label>
+                </div>
+                <div>
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">Aceita nosso termos de uso?</label>
+                </div>
+            </fieldset>
+
+                
+                <label for="estados">Qual o seu estado?</label>
+                <select id="estados" name="estados">
+                <option>São Paulo</option>
+                <option>Rio de Janeiro</option>
+                <option>Rio Grande do Sul</option>
+                </select>
+         
+                <label for="comentario">Digite seu comentário</label>
+                <textarea name="comentario" id="comentario"></textarea>
+                <br>
+                   <input type="submit" value="Enviar">
+            </form>
         </div>
     </main>
 
